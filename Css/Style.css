@@ -1,0 +1,125 @@
+body {
+    font-family: "Montserrat";
+}
+
+
+
+
+
+
+#title {
+    background-color:#657786;
+    color: black;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+font-family: 'Montserrat-bold';
+font-size: 3rem;
+line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat-bold';
+}
+
+p {
+    color: #8f8f8f;
+}
+.container-fluid {
+    padding: 2% 10%;
+}
+
+/* title image  */
+
+.black-bath {
+    width: 100%;
+    transform: rotate(10deg);
+}
+
+/* navigation bar  */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-family: 'Montserrat-Light';
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* download buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* feature images */
+
+#features {
+    padding: 5% 10%;
+    background-color:#f2f2f2;
+}
+ .feature-box{
+    text-align: center;
+    padding: 2%;
+} 
+
+.feature-box:hover {
+ transform: scale(1.2);
+}
+
+.glass-skin-img {
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+.sex-img {
+    padding-bottom: 1rem;
+    width: 90%;
+}
+
+.holistic-img {
+    padding-bottom: 1rem;
+    width: 95%;
+}
+
+/* slideshow */
+
+#feed-slideshow {
+    padding: 5% 10%;
+    background-color: #657786;
+    text-align: center;
+}
+.nude-img {
+    width: 100%;
+} 
+
+/* .breastfeeding-img {
+    width: 100%;
+} */
+/* press */
+#press {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px ;
+}
