@@ -2,11 +2,6 @@ body {
     font-family: "Montserrat";
 }
 
-
-
-
-
-
 #title {
     background-color:#657786;
     color: black;
@@ -106,13 +101,11 @@ p {
     background-color: #657786;
     text-align: center;
 }
-.nude-img {
+.slideshow-img {
     width: 100%;
-} 
+}
 
-/* .breastfeeding-img {
-    width: 100%;
-} */
+
 /* press */
 #press {
     text-align: center;
