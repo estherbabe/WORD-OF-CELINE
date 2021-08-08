@@ -105,6 +105,19 @@ p {
     width: 100%;
 }
 
+.carousel-image-container {
+    max-height: 400px;
+}
+
+#living-room-image {
+    background-image: url("../Images/nude_girl_in_bed.jpg");
+    width: 400px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 /* press */
 /* #press {
