@@ -27,14 +27,14 @@ p {
     color: #8f8f8f;
 }
 .container-fluid {
-    padding: 2% 10%;
+    padding: 2% 7%;
 }
 
 /* title image  */
 
 .black-bath {
     width: 100%;
-    transform: rotate(10deg);
+    transform: rotate(9deg);
 }
 
 /* navigation bar  */
@@ -110,6 +110,15 @@ p {
 }
 
 #living-room-image {
+    background-image: url("../Images/Living_room.jpg");
+    width: 400px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nude-girl-in-bed {
     background-image: url("../Images/nude_girl_in_bed.jpg");
     width: 400px;
     height: 400px;
@@ -118,6 +127,41 @@ p {
     background-size: cover;
 }
 
+#makeup-look {
+    background-image: url("../Images/Ryan_Destiny.jpg");
+    width: 400px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#outfit-pic {
+    background-image: url("../Images/Outfit_pic.png");
+    width: 400px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#breastfeeding-img {
+    background-image: url("../Images/breastfeeding.jpg");
+    width: 400px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#meditating-pic {
+    background-image: url("../Images/meditating_pic.jpg");
+    width: 400px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
 
 /* press */
 /* #press {
