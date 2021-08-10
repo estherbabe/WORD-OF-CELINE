@@ -109,6 +109,14 @@ p {
     max-height: 400px;
 }
 
+.carousel-control-prev {
+    margin-left: -100px;
+  }
+  
+  .carousel-control-next {
+    margin-right: -100px;
+  }
+
 
 #living-room-image {
     background-image: url("../Images/Living_room.jpg");
