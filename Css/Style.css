@@ -24,7 +24,7 @@ h3 {
 }
 
 p {
-    color: #8f8f8f;
+    color: black;
 }
 .container-fluid {
     padding: 2% 7%;
@@ -109,6 +109,7 @@ p {
     max-height: 400px;
 }
 
+
 #living-room-image {
     background-image: url("../Images/Living_room.jpg");
     width: 400px;
@@ -163,13 +164,62 @@ p {
     background-size: cover;  
 }
 
-/* press */
-/* #press {
-    text-align: center;
-    padding-bottom: 3%;
+/* subcription */
+#subscription {
+    background-color:#657786;
+    padding: 20px 30px;
 }
 
-.press-logo {
-    width: 15%;
-    margin: 20px 20px 50px ;
-} */
+.email {
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 70%;
+    max-width: 500px;
+    font-size: 1.5rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+.email::placeholder { 
+    color: black;
+    opacity: 1; 
+  }
+
+  .btn-subcription-signup {
+      border: none;
+      background: none;
+      height: 40px;
+  }
+
+ .bikini_pic {
+     background-image: url("../Images/bikini_pic.jpg");
+     background-position: center;
+    background-size: cover;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
