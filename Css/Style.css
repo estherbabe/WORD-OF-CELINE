@@ -1,9 +1,10 @@
 body {
     font-family: "Montserrat";
+    background-color: #111;
 }
 
 #title {
-    background-color:#657786;
+    background-color:#b366ff;
     color: black;
 }
 
@@ -17,14 +18,16 @@ h2 {
 font-family: 'Montserrat-bold';
 font-size: 3rem;
 line-height: 1.5;
+color: black;
 }
 
 h3 {
     font-family: 'Montserrat-bold';
+    color: black;
 }
 
 p {
-    color: black;
+    color: #fff;
 }
 .container-fluid {
     padding: 2% 7%;
@@ -65,10 +68,13 @@ p {
 }
 
 /* feature images */
+.feature-text {
+    color: blanchedalmond;
+}
 
 #features {
     padding: 5% 10%;
-    background-color:#f2f2f2;
+    /* background-color:#f2f2f2; */
 }
  .feature-box{
     text-align: center;
@@ -98,7 +104,7 @@ p {
 
 #feed-slideshow {
     padding: 5% 10%;
-    background-color: #657786;
+    background-color: #b366ff;
     text-align: center;
 }
 .slideshow-img {
@@ -174,7 +180,7 @@ p {
 
 /* subcription */
 #subscription {
-    background-color:#657786;
+    background-color:#a64dff;
     padding: 20px 30px;
 }
 
