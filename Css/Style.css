@@ -30,14 +30,15 @@ p {
     color: #fff;
 }
 .container-fluid {
-    padding: 2% 7%;
+    padding: 2% 7% 7%;
 }
 
 /* title image  */
 
-.black-bath {
+.title-image {
     width: 100%;
     transform: rotate(9deg);
+    right: 50%;
 }
 
 /* navigation bar  */
@@ -74,6 +75,7 @@ p {
 
 #features {
     padding: 5% 10%;
+    position: relative;
     /* background-color:#f2f2f2; */
 }
  .feature-box{
@@ -214,12 +216,43 @@ input:focus {
     background-size: cover;
  }
 
+/* pricing */
+.card {
+    background-color: #191919;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+   padding: 3% 2%; 
+}
 
 
+/* CTA section */
 
+#cta {
+    background-color: #a64dff;
+    padding: 7% 15%;
+}
 
+.cta-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+}
 
+@media (max-width:1028px) {
+#title {
+    text-align: center;
+}
 
+.title-image {
+   position: static; 
+   transform: rotate(0); 
+}
+}
 
 
 
