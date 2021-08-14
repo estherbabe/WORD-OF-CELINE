@@ -4,7 +4,7 @@ body {
 }
 
 #title {
-    background-color:#b366ff;
+    background-color: #b366ff;
     color: black;
 }
 
@@ -15,10 +15,10 @@ h1 {
 }
 
 h2 {
-font-family: 'Montserrat-bold';
-font-size: 3rem;
-line-height: 1.5;
-color: black;
+    font-family: 'Montserrat-bold';
+    font-size: 3rem;
+    line-height: 1.5;
+    color: black;
 }
 
 h3 {
@@ -29,6 +29,7 @@ h3 {
 p {
     color: #fff;
 }
+
 .container-fluid {
     padding: 2% 7% 7%;
 }
@@ -69,6 +70,7 @@ p {
 }
 
 /* feature images */
+
 .feature-text {
     color: blanchedalmond;
 }
@@ -78,13 +80,14 @@ p {
     position: relative;
     /* background-color:#f2f2f2; */
 }
- .feature-box{
+
+.feature-box {
     text-align: center;
     padding: 2%;
-} 
+}
 
 .feature-box:hover {
- transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .glass-skin-img {
@@ -109,6 +112,7 @@ p {
     background-color: #b366ff;
     text-align: center;
 }
+
 .slideshow-img {
     width: 100%;
 }
@@ -119,12 +123,11 @@ p {
 
 .carousel-control-prev {
     margin-left: -100px;
-  }
-  
-  .carousel-control-next {
-    margin-right: -100px;
-  }
+}
 
+.carousel-control-next {
+    margin-right: -100px;
+}
 
 #living-room-image {
     background-image: url("../Images/Living_room.jpg");
@@ -159,7 +162,7 @@ p {
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
 }
 
 #breastfeeding-img {
@@ -168,7 +171,7 @@ p {
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
 }
 
 #meditating-pic {
@@ -177,12 +180,13 @@ p {
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;  
+    background-size: cover;
 }
 
 /* subcription */
+
 #subscription {
-    background-color:#a64dff;
+    background-color: #a64dff;
     padding: 20px 30px;
 }
 
@@ -199,24 +203,25 @@ input:focus {
     outline: none;
 }
 
-.email::placeholder { 
+.email::placeholder {
     color: black;
-    opacity: 1; 
-  }
+    opacity: 1;
+}
 
-  .btn-subcription-signup {
-      border: none;
-      background: none;
-      height: 40px;
-  }
+.btn-subcription-signup {
+    border: none;
+    background: none;
+    height: 40px;
+}
 
- .bikini_pic {
-     background-image: url("../Images/bikini_pic.jpg");
-     background-position: center;
+.bikini_pic {
+    background-image: url("../Images/bikini_pic.jpg");
+    background-position: right;
     background-size: cover;
- }
+}
 
 /* pricing */
+
 .card {
     background-color: #191919;
 }
@@ -227,9 +232,8 @@ input:focus {
 }
 
 .pricing-column {
-   padding: 3% 2%; 
+    padding: 3% 2%;
 }
-
 
 /* CTA section */
 
@@ -244,29 +248,17 @@ input:focus {
 }
 
 @media (max-width:1028px) {
-#title {
-    text-align: center;
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
 }
 
-.title-image {
-   position: static; 
-   transform: rotate(0); 
+@media (max-width:430px) {
+    .slideshow-text {
+        font-size: 24px;
+    }
 }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
